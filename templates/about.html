@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+ООО "ДОМ КЛАССИК"
+{% endblock %}
+
+{% block body %}
+
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap"
+    />
+  </head>
+
+<style>
+body {
+  background-image: linear-gradient(to bottom, #485563, #29323c);
+  color: #fff;
+}
+</style>
+
+
+    <div class="div421">
+      <div class="div422">
+        <div class="div423">О компании</div>
+      </div>
+      <div class="div425">
+        <div class="child98"></div>
+        <div class="div426">
+          <img class="child99" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <div class="div427">
+            <div class="div428">Полное наименование</div>
+            <div class="div429">
+              ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ “ДОМ КЛАССИК”
+            </div>
+          </div>
+          <div class="div430">
+            <div class="div431">Вид деятельности</div>
+            <div class="div429">
+              <p class="p48">
+                Основной (по коду ОКВЭД РЕД 2) : 62.32 - управление недвижимым
+                имуществом
+              </p>
+              <p class="p48">за вознаграждение или на договорной основе</p>
+            </div>
+          </div>
+        </div>
+        <div class="div433">
+          <img class="child99" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <img class="child101" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <div class="div434">
+            <div class="div435">Сокращенное наименование</div>
+            <div class="div436">ООО “ДОМ КЛАССИК”</div>
+          </div>
+          <div class="div437">
+            <div class="div438">Адрес места нахождения</div>
+            <div class="div429">
+              Должкина Светлана ПетровнаГ. Брянск, ул. Советская, д.93, помещение 2, 241050
+            </div>
+          </div>
+        </div>
+        <div class="div440">
+          <img class="child99" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <img class="child103" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <div class="div441">
+            <div class="div435">Вид организации</div>
+            <div class="div443">Управляющая компания</div>
+          </div>
+          <div class="div444">
+            <div class="div445">Исполнительный директор</div>
+            <div class="div429">ㅤㅤㅤㅤㅤㅤДолжкина Светлана Петровна</div>
+          </div>
+        </div>
+        <div class="div447">
+          <img class="child104" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <img class="child105" alt="" src="{{ url_for('static', filename= 'img/line-4.svg')}}" />
+
+          <div class="div448">
+            <div class="div449">Статус</div>
+            <div class="div429">
+              Действующая организация (дата регистрации 22.12.2020)
+            </div>
+          </div>
+          <div class="div451">
+            <div class="div435">Руководитель организации</div>
+            <div class="div453">Алдошин Юрий Валентинович</div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
